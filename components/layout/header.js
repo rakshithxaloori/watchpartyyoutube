@@ -34,7 +34,9 @@ const Header = () => {
   };
 
   const handleSignIn = () => {
-    signIn("google");
+    signIn("google", {
+      callbackUrl: `${window.location.origin}`,
+    });
   };
 
   return (

@@ -19,42 +19,22 @@ const Footer = () => {
         columnGap: 2,
       }}
     >
-      <Link
-        href="/privacy-policy"
-        style={linkStyle}
-        rel="noopener noreferrer"
-        target="_blank"
-      >
+      <Link href="/privacy-policy" style={linkStyle}>
         <Typography component="span" color="primary">
           Privacy Policy
         </Typography>
       </Link>
-      <Link
-        href="/terms"
-        style={linkStyle}
-        rel="noopener noreferrer"
-        target="_blank"
-      >
+      <Link href="/terms" style={linkStyle}>
         <Typography component="span" color="primary">
           Terms
         </Typography>
       </Link>
-      <Link
-        href="/faq"
-        style={linkStyle}
-        rel="noopener noreferrer"
-        target="_blank"
-      >
+      <Link href="/faq" style={linkStyle}>
         <Typography component="span" color="primary">
           FAQ
         </Typography>
       </Link>
-      <Link
-        href="/support"
-        style={linkStyle}
-        rel="noopener noreferrer"
-        target="_blank"
-      >
+      <Link href="/support" style={linkStyle}>
         <Typography component="span" color="primary">
           Support
         </Typography>
@@ -75,7 +55,7 @@ const Footer = () => {
         </Link>
       </Typography>
       <Typography component="span" color="primary" sx={{ fontSize: 12 }}>
-        © {new Date().getFullYear()} GetABrandDeal
+        © {new Date().getFullYear()} JuntoX
       </Typography>
     </Box>
   );

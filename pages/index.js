@@ -3,7 +3,10 @@ import Head from "next/head";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
+import LandingPage from "@/components/landing";
+
 export default function Home() {
+  return <LandingPage />;
   return (
     <>
       <Head>
